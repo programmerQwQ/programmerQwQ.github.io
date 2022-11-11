@@ -1,1 +1,5 @@
-#text{font-family: "微软雅黑"}
+#text
+{
+  border-style:solid;
+  border-radius:90px;
+}
