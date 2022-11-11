@@ -1,6 +1,8 @@
 function search(){
+  if (document.getElementById("select").value="必应") {
+    searchOnBing(document.getElementById("text").value);
+  }
   console.log(document.getElementById("select").value);
-  searchOnBing(document.getElementById("text").value);
 }
 
 function searchOnBing(value) {
