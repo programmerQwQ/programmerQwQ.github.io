@@ -1,4 +1,5 @@
 function search(){
+  console.log(document.getElementById("select").value);
   searchOnBing(document.getElementById("text").value);
 }
 
