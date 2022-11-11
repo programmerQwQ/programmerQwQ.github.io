@@ -2,11 +2,12 @@
 <html>
   <head>
     <title>搜索</title>
+    <script src="js/index.js"></script>
   </head>
   <body>
-    <form method="post" onsubmit="window.navigate("https://cn.bing.com/search?q="+this)>
-      <input class="text" type="text">
-      <input class="submit" type="submit" value="搜索">
+    <form>
+      <input class="text" id="text" type="text"></input>
+      <input class="button" id="button" onclick="searchOnBing()" type="button" value="搜索"></input>
     </form>
   </body>
 </html>
